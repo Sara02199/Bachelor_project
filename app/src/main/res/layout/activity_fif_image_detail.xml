@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDD0"
+    android:padding="50dp"
+    tools:context=".FifImageDetail">
+    <ImageView
+        android:id="@+id/i5"
+        android:layout_width="331dp"
+        android:layout_height="288dp"
+        android:src="@drawable/ffpv" />
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moringa powder contains three grams of protein per tablespoon and contains all of the essential amino acids necessary for energy production, muscle repair, and more. "
+        android:textAlignment="center"
+        android:textColor="#024A05"
+        android:textStyle="bold"
+        android:layout_below="@+id/i5"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.900"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/tv5"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/add5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go back to view products"
+        android:backgroundTint="#d4b781"
+        android:textColor="@color/black"
+        android:layout_below="@+id/t6"/>
+</RelativeLayout>

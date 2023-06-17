@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDD0"
+    android:padding="50dp"
+    tools:context=".AdminSignup">
+
+    <TextView
+        android:id="@+id/tit"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Admin Sign up page "
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/adname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Admin Name"
+        android:inputType="textPersonName"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/tit" />
+
+    <EditText
+        android:id="@+id/passwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/adname" />
+
+    <EditText
+        android:id="@+id/repass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rewrite the password"
+        android:inputType="numberPassword"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/passwo"/>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#d4b781"
+        android:textColor="@color/black"
+        android:layout_below="@+id/repass"/>
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Sign in page"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#d4b781"
+        android:textColor="@color/black"
+        android:layout_below="@+id/signup"/>
+</RelativeLayout>

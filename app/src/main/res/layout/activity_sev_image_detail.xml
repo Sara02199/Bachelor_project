@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDD0"
+    android:padding="50dp"
+    tools:context=".SevImageDetail">
+    <ImageView
+        android:id="@+id/ive7"
+        android:layout_width="331dp"
+        android:layout_height="288dp"
+        android:src="@drawable/ffffpv" />
+    <TextView
+        android:id="@+id/tvi7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ive7"
+        android:text="Aloe vera contributes to the treatment of acne, lichen planus (a very itchy rash on the skin or in the mouth), oral submucosal fibrosis, burning mouth syndrome, burns, and dermatosis caused by radiation. "
+        android:textAlignment="center"
+        android:textColor="#024A05"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tve8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvi7"
+        android:text="1.00"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/add7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tve8"
+        android:backgroundTint="#d4b781"
+        android:textColor="@color/black"
+        android:text="Go back to view products" />
+</RelativeLayout>

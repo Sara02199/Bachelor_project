@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MyApplicationSS</string>
+
+    <string name="make_an_order">Make an order</string>
+    <string name="dialog_title">Items available in the store</string>
+    <string name="ok_label">OK</string>
+    <string name="dismiss_label">Dismiss</string>
+    <string name="clear_all_label">Clear all</string>
+
+    <string-array name="Farm_item">
+        <item>Sage 0.800</item>
+        <item>Zaatar 0.700</item>
+        <item>Leeks 0.900</item>
+        <item>Rocola 0.500</item>
+        <item>Coriander 0.300</item>
+        <item>Swiss chard 0.800</item>
+        <item>Dill leaves 0.300</item>
+        <item>Parsley 0.300</item>
+        <item>Mint 0.200</item>
+        <item>Water spinach 0.900</item>
+        <item>Carry leaves 0.700</item>
+        <item>Alo-veera 1.00</item>
+        <item>Basel 0.500</item>
+        <item>Moronga leaves 0.900</item>
+        <item>Spinach 0.700</item>
+    </string-array>
+</resources>

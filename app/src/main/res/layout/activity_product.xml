@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="7dp"
+    android:orientation="vertical"
+    android:padding="5dp"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="3dp"
+    android:background="#FFFDD0"
+    tools:context=".Product">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="428dp"
+            android:layout_height="817dp"
+            android:gravity="left"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/teVwte"
+                android:layout_width="381dp"
+                android:layout_height="62dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Product Page"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/ivprod"
+                android:layout_width="151dp"
+                android:layout_height="164dp"
+                android:src="@drawable/fffffffpvffff" />
+
+            <ImageView
+                android:id="@+id/ivprod2"
+                android:layout_width="151dp"
+                android:layout_height="164dp"
+                android:src="@drawable/fffffffpvfffff" />
+            <ImageView
+                android:id="@+id/ivprod3"
+                android:layout_width="151dp"
+                android:layout_height="164dp"
+                android:src="@drawable/fffffffpvffffff" />
+            <ImageView
+                android:id="@+id/ivprod4"
+                android:layout_width="151dp"
+                android:layout_height="164dp"
+                android:src="@drawable/fpv" />
+            <ImageView
+                android:id="@+id/ivprod5"
+                android:layout_width="151dp"
+                android:layout_height="164dp"
+                android:src="@drawable/ffpv" />
+            <ImageView
+                android:id="@+id/ivprod6"
+                android:layout_width="151dp"
+                android:layout_height="164dp"
+                android:src="@drawable/fffpv" />
+            <ImageView
+                android:id="@+id/ivprod7"
+                android:layout_width="151dp"
+                android:layout_height="164dp"
+                android:src="@drawable/ffffpv" />
+            <ImageView
+                android:id="@+id/ivprod8"
+                android:layout_width="151dp"
+                android:layout_height="164dp"
+                android:src="@drawable/fffffpv" />
+            <ImageView
+                android:id="@+id/ivprod9"
+                android:layout_width="151dp"
+                android:layout_height="164dp"
+                android:src="@drawable/ffffffpvffff" />
+            <ImageView
+                android:id="@+id/ivprod10"
+                android:layout_width="151dp"
+                android:layout_height="164dp"
+                android:src="@drawable/fffffffpvffffffff" />
+            <ImageView
+                android:id="@+id/ivprod11"
+                android:layout_width="151dp"
+                android:layout_height="164dp"
+                android:src="@drawable/ffffffpvf" />
+            <ImageView
+                android:id="@+id/ivprod12"
+                android:layout_width="151dp"
+                android:layout_height="164dp"
+                android:src="@drawable/ffffffpvff" />
+            <ImageView
+                android:id="@+id/ivprod13"
+                android:layout_width="151dp"
+                android:layout_height="164dp"
+                android:src="@drawable/ffffffpvfff" />
+            <ImageView
+                android:id="@+id/ivprod14"
+                android:layout_width="151dp"
+                android:layout_height="164dp"
+                android:src="@drawable/fffffffpvfffffff" />
+            <ImageView
+                android:id="@+id/ivprod15"
+                android:layout_width="151dp"
+                android:layout_height="164dp"
+                android:src="@drawable/ffffffpv" />
+
+            <Button
+                android:id="@+id/butOrder"
+                android:layout_width="378dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#d4b781"
+                android:text="Order Now"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

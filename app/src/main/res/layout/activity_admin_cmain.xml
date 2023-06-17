@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:background="#FFFDD0"
+    tools:context=".AdminCMainActivity">
+    <TextView
+        android:id="@+id/ti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Enter Product Details"
+        android:textSize="25dp"
+        android:layout_marginTop="26dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/prodname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_below="@id/ti"
+        android:hint="Product name"/>
+    <EditText
+        android:id="@+id/prodprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_below="@+id/prodname"
+        android:hint="Product price"/>
+    <Button
+        android:id="@+id/btnIc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prodprice"
+        android:backgroundTint="#d4b781"
+        android:textColor="@color/black"
+        android:text="Incert Data"/>
+    <Button
+        android:id="@+id/btnVw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnIc"
+        android:backgroundTint="#d4b781"
+        android:textColor="@color/black"
+        android:text="View Data"/>
+    <Button
+        android:id="@+id/btnUpd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnVw"
+        android:backgroundTint="#d4b781"
+        android:textColor="@color/black"
+        android:text="Update Data"/>
+    <Button
+        android:id="@+id/btndele"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnUpd"
+        android:backgroundTint="#d4b781"
+        android:textColor="@color/black"
+        android:text="Delete Data"/>
+</RelativeLayout>

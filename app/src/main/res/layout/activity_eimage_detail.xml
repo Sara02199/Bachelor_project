@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDD0"
+    android:padding="50dp"
+    tools:context=".EImageDetail">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/iv8"
+                android:layout_width="331dp"
+                android:layout_height="288dp"
+                android:src="@drawable/fffffpv" />
+            <TextView
+                android:id="@+id/t8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv8"
+                android:text="Curry leaves are a rich source of vitamin A, vitamin B, vitamin C, vitamin B2, calcium, and iron, apart from a heavy distinctive odor and pungent taste. It helps in the treatment of dysentery, diarrhea, diabetes, morning sickness, and nausea by adding curry leaves to your meals."
+                android:textAlignment="center"
+                android:textColor="#024A05"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/t9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t8"
+                android:text="0.700"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/add8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t9"
+                android:backgroundTint="#d4b781"
+                android:textColor="@color/black"
+                android:text="Go back to view products" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

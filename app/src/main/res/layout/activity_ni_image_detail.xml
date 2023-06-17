@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDD0"
+    android:padding="50dp"
+    tools:context=".NiImageDetail">
+    <ImageView
+        android:id="@+id/id8"
+        android:layout_width="331dp"
+        android:layout_height="288dp"
+        android:src="@drawable/ffffffpvffff" />
+    <TextView
+        android:id="@+id/tw4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Water spinach benefits your health in many ways. It can reduce cholesterol levels, help treat jaundice and liver problems, support anemia treatment, aid in digestion, and protect against heart disease. "
+        android:textAlignment="center"
+        android:textColor="#024A05"
+        android:textStyle="bold"
+        android:layout_below="@+id/id8"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/tVE8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.900"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/tw4"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/add9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go back to view products"
+        android:backgroundTint="#d4b781"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tVE8"/>
+</RelativeLayout>

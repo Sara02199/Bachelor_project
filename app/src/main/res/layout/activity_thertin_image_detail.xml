@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDD0"
+    android:padding="50dp"
+    tools:context=".ThertinImageDetail">
+    <ImageView
+        android:id="@+id/imve"
+        android:layout_width="331dp"
+        android:layout_height="288dp"
+        android:src="@drawable/ffffffpvfff" />
+    <TextView
+        android:id="@+id/te8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imve"
+        android:text="Mint provides a refreshing taste that can make the mouth feel clean "
+        android:textAlignment="center"
+        android:textColor="#024A05"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/te8"
+        android:text="0.200"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/add13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t"
+        android:backgroundTint="#d4b781"
+        android:textColor="@color/black"
+        android:text="Go back to view products" />
+</RelativeLayout>

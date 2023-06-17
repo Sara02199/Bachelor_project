@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplicationSS"
+        tools:targetApi="31">
+        <activity
+            android:name=".Userlist"
+            android:exported="false" />
+        <activity
+            android:name=".AdminCMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuyProduct"
+            android:exported="false" />
+        <activity
+            android:name=".PayMethode"
+            android:exported="false" />
+        <activity
+            android:name=".FirstImDetai"
+            android:exported="false" />
+        <activity
+            android:name=".FifteenImageDetail"
+            android:exported="false" />
+        <activity
+            android:name=".ForteenImageDetail"
+            android:exported="false" />
+        <activity
+            android:name=".ThertinImageDetail"
+            android:exported="false" />
+        <activity
+            android:name=".TwImageDetail"
+            android:exported="false" />
+        <activity
+            android:name=".ElvenImageDetail"
+            android:exported="false" />
+        <activity
+            android:name=".TinImageDetail"
+            android:exported="false" />
+        <activity
+            android:name=".NiImageDetail"
+            android:exported="false" />
+        <activity
+            android:name=".EImageDetail"
+            android:exported="false" />
+        <activity
+            android:name=".SevImageDetail"
+            android:exported="false" />
+        <activity
+            android:name=".SixImageDetail"
+            android:exported="false" />
+        <activity
+            android:name=".FifImageDetail"
+            android:exported="false" />
+        <activity
+            android:name=".FouImageDetail"
+            android:exported="false" />
+        <activity
+            android:name=".ThImageDetail"
+            android:exported="false" />
+        <activity
+            android:name=".SImageDetail"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSignup"
+            android:exported="false" />
+        <activity
+            android:name=".AdminL"
+            android:exported="false" />
+        <activity
+            android:name=".ReW"
+            android:exported="false" />
+        <activity
+            android:name=".EmptyCart"
+            android:exported="false" />
+        <activity
+            android:name=".OrderSuccessful"
+            android:exported="false" />
+        <activity
+            android:name=".Features"
+            android:exported="false" />
+        <activity
+            android:name=".Product"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".Contact"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivityPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

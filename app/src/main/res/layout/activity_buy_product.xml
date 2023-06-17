@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDD0"
+    android:padding="50dp"
+    tools:context=".BuyProduct">
+    <TextView
+        android:id="@+id/tvti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Cart"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/bpay"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#d4b781"
+        android:textColor="@color/black"
+        android:text="Check out" />
+    <TextView
+        android:id="@+id/tvItSe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvti"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="#3F51B5"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+    <Button
+        android:id="@+id/bOrder"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#d4b781"
+        android:textColor="@color/black"
+        android:text="@string/make_an_order" />
+    <EditText
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write your order here with your mobile number..."
+        android:lines="4"
+        android:gravity="center"
+        android:background="@drawable/bg_roud"
+        android:layout_below="@+id/bpay"/>
+    <Button
+        android:id="@+id/bt_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#d4b781"
+        android:textColor="@color/black"
+        android:layout_below="@+id/et_text"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lest_view"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/bt_add"/>
+</RelativeLayout>

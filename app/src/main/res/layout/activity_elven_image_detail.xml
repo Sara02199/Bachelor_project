@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDD0"
+    android:padding="50dp"
+    tools:context=".ElvenImageDetail">
+    <ImageView
+        android:id="@+id/iw8"
+        android:layout_width="331dp"
+        android:layout_height="288dp"
+        android:src="@drawable/ffffffpvf" />
+    <TextView
+        android:id="@+id/tE4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dill is packed with flavonoids, which have been shown to help reduce the risk of heart disease and stroke. But that's not the only reason dill is thought to improve heart health, also it can reduce LDLcholesterol levels. "
+        android:textAlignment="center"
+        android:textColor="#024A05"
+        android:textStyle="bold"
+        android:layout_below="@+id/iw8"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/V8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.300"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/tE4"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/add11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go back to view products"
+        android:backgroundTint="#d4b781"
+        android:textColor="@color/black"
+        android:layout_below="@+id/V8"/>
+</RelativeLayout>

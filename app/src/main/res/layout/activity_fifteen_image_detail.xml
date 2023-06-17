@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDD0"
+    android:padding="50dp"
+    tools:context=".FifteenImageDetail">
+    <ImageView
+        android:id="@+id/im15"
+        android:layout_width="331dp"
+        android:layout_height="288dp"
+        android:src="@drawable/ffffffpv" />
+    <TextView
+        android:id="@+id/tv15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Swiss chard is an excellent source of vitamin A and vitamin K and a good source of vitamin C and magnesium. "
+        android:textAlignment="center"
+        android:textColor="#024A05"
+        android:textStyle="bold"
+        android:layout_below="@+id/im15"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/t15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.800"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/tv15"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/add15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go back to view products"
+        android:backgroundTint="#d4b781"
+        android:textColor="@color/black"
+        android:layout_below="@+id/t15"/>
+</RelativeLayout>

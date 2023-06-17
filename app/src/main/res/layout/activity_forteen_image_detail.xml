@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDD0"
+    android:padding="50dp"
+    tools:context=".ForteenImageDetail">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/ivpd14"
+                android:layout_width="331dp"
+                android:layout_height="288dp"
+                android:src="@drawable/fffffffpvfffffff" />
+            <TextView
+                android:id="@+id/t14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="These natural substances, which give arugula its bitter taste and strong scent, may protect you against certain cancers, including breast, prostate, lung, and colon cancers. Arugula may also fight inflammation. It has ample vitamin K, which is good for your bones and may help prevent osteoporosis. "
+                android:textAlignment="center"
+                android:textColor="#024A05"
+                android:textStyle="bold"
+                android:layout_below="@+id/ivpd14"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/tv14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0.500"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_below="@+id/t14"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/add14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Go back to view products"
+                android:backgroundTint="#d4b781"
+                android:textColor="@color/black"
+                android:layout_below="@+id/tv14"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
